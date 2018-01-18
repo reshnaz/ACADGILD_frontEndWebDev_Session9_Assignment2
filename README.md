@@ -1,6 +1,20 @@
 # S9A2
 
+Note: All output related files are under "src/app" folder.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.4.
+
+## Problem Statement
+1. Create a form with 3 inputs, 1 dropdown field, and a button.
+2. The drop down filed values should display on initialization using services.
+3. The input and the dropdown fields should use Two-Way Binding. Create a model
+for the fields and initialize them on ngOnInit(). Add a CSS class for T required fields
+and valid the fields.
+4. Create a function which will bind with the (ngSubmit).
+5. Create a service for sending and retrieving the data.
+6. Make all the fields required and it should show an appropriate error message. If
+the form is not valid, do not submit the value. Once all the validation is passed, click
+the button, it should send the data in the parameter and in HTML.
 
 ## Development server
 
